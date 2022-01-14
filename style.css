@@ -1,0 +1,50 @@
+button {
+  background-color: #6C19B5;
+  border-radius: 16px;
+  color: #ffffff;
+}
+
+input {
+  background-color: #E3E3E3;
+  border-radius: 16px;
+  padding: 8px 16px;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background 500ms ease-in-out;
+  width: 100%;
+}
+
+input:focus {
+  background-color: #cfcfcf;
+}
+
+.print_screen {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000000;
+  display: none;
+  font-size: 14px;
+  height: 1cm;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 7cm;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print_screen {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+.max-width {
+  max-width: 375px;
+}
+/*# sourceMappingURL=style.css.map */

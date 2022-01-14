@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Név nyomtatás</title>
+    <link rel="stylesheet" href="8px-css-grid.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="max-width margin-x-auto">
+    <div class="flex column padding-x-24 padding-y-32 no-print">
+        <label class="margin-b-16">
+            <span class="block margin-b-4">Neved</span>
+            <input id="name" type="text" placeholder="Barbara">
+        </label>
+        <label class="margin-b-32">
+            <span class="block margin-b-4">Beosztásod</span>
+            <input id="position" type="text" placeholder="Értékesítő">
+        </label>
+        <button id="button" type="button">Nyomtatás</button>
+    </div>
+    <span class="print_screen text-center" id="sum"></span>
+    <script src="scripts.js"></script>
+</body>
+</html>
