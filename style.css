@@ -47,4 +47,7 @@ input:focus {
 .max-width {
   max-width: 375px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.test-bg {
+  background-color: #eaeaea;
+}
