@@ -1,3 +1,5 @@
+Ez a project archiválva lett, mert összevontam a fő alza repositorival.
+
 # alza-nev-cimke
 Here you can print a new name for the right size.
 
